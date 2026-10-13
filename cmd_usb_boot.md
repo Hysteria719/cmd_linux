@@ -43,3 +43,8 @@ cat /etc/os-release
 ```bash
 inxi -Fxxx
 ```
+- Encore plus complet
+    ```bash
+    inxi -Fazxxx
+    ```
+
