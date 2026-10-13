@@ -38,3 +38,8 @@ systemctl start sshd
 ```bash
 cat /etc/os-release
 ```
+
+**Voir config du pc (cpu, mémoire, gpu, etc )**
+```bash
+inxi -Fxxx
+```
