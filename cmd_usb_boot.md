@@ -9,7 +9,7 @@ passwd root
 ip addr
 ```
 
- **Changer le pare feu pour autoriser le port 22**
+ **Changer le pare-feu pour autoriser le port 22**
 ```bash
 iptables -I INPUT -p tcp --dport 22 -j ACCEPT
 ```
@@ -19,7 +19,7 @@ iptables -I INPUT -p tcp --dport 22 -j ACCEPT
 ss -lntp | grep :22
 ```
 
-**Changer claver pour le mettre en azerty**
+**Changer clavier pour le mettre en azerty**
 ```bash
 loadkeys fr
 ```
